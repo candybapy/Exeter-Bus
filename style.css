@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #111;
+}
+
+.app {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.clock {
+  font-size: 28px;
+}
+
+.stop-name {
+  font-size: 22px;
+  margin: 10px 0 20px;
+}
+
+.card {
+  margin: 15px 0;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.big {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.time {
+  font-size: 28px;
+}
+
+.small {
+  font-size: 24px;
+}
+
+.map {
+  height: 250px;
+  margin-top: 20px;
+  border: 2px solid #ddd;
+}
+
+.footer {
+  margin-top: 15px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 18px;
+  padding: 6px 12px;
+}
