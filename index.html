@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exeter Bus</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="app">
+
+    <div class="header">
+      <div class="title">Exeter Bus</div>
+      <div id="clock" class="clock">--:--:--</div>
+    </div>
+
+    <div class="stop-name" id="stopName"></div>
+
+    <div class="card">
+      <div class="label">下一班 B</div>
+      <div class="big" id="next1Min">--</div>
+      <div class="time" id="next1Time">--</div>
+    </div>
+
+    <div class="card small">
+      <div class="label">第二班 B</div>
+      <div id="next2Min">--</div>
+      <div id="next2Time">--</div>
+    </div>
+
+    <div id="map" class="map"></div>
+
+    <div class="footer">
+      最後更新：<span id="lastUpdate">--</span>
+      <button onclick="refresh()">🔄 更新資料</button>
+    </div>
+
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
